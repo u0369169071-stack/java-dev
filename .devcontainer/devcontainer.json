@@ -1,0 +1,21 @@
+{
+  "name": "Java dev container",
+  "dockerFile": "Dockerfile",
+  "features": {
+     "ghcr.io/devcontainers/features/java:1": {
+        "version": "none",
+        "installGradle": "true",
+        "installMaven": "true"
+    }
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "",
+  "postStartCommand" : "",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  }
+}
